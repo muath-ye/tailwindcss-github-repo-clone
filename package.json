@@ -1,0 +1,17 @@
+{
+  "name": "fresh-tailwindcss",
+  "version": "1.0.0",
+  "description": "This is a first project with tailwindcss to rebuild github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "author": "muath.ye@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "tailwindcss": "^2.2.15"
+  }
+}
